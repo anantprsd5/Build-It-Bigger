@@ -20,10 +20,10 @@ import com.google.api.server.spi.config.ApiNamespace;
 public class MyEndpoint {
 
     /**
-     * A simple endpoint method that takes a name and says Hi back
+     * A simple endpoint method that returns a Joke.
      */
     @ApiMethod(name = "tellAJoke")
-    public MyJoke sayHi() {
+    public MyJoke tellAJoke() {
 
         MyJoke response = new MyJoke();
         JokesLib jokesLib = new JokesLib();

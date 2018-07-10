@@ -23,7 +23,7 @@
   "tellAJoke": {
    "httpMethod": "POST",
    "id": "myApi.tellAJoke",
-   "path": "sayHi",
+   "path": "tellAJoke",
    "response": {
     "$ref": "MyJoke"
    },
